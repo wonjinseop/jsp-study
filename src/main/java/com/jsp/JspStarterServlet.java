@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 
 @WebServlet(
         name = "hello",
-        urlPatterns = "/*"
+        urlPatterns = "/start"
 )
 public class JspStarterServlet extends HttpServlet {
 
